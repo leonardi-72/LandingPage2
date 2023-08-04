@@ -1,0 +1,152 @@
+/* Estilos generales */
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+  }
+  
+  /* Barra de navegación */
+  .navbar {
+	background-color: rgb(0, 119, 255);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+  }
+  
+  .navbar-logo img {
+	height: 70px;
+  }
+  
+  .navbar-menu {
+	display: flex;
+	gap: 15px;
+  }
+  
+  .navbar-button {
+	background-color: orange;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	font-weight: bold;
+  }
+  
+  /* Encabezado */
+  .header {
+	text-align: center;
+  }
+  
+  .header h1 {
+	text-align: center;
+  }
+  
+  .image-center {
+	display: block;
+	margin: 0 auto;
+  }
+  
+  /* Contenido */
+  .landing-content {
+	padding: 20px;
+  }
+  
+  /* Quienes somos */
+  .subtitulo {
+	font-size: 24px;
+	font-weight: bold;
+	color: red;
+  }
+  
+  .descripcion {
+	margin-top: 20px;
+	font-size: 20px;
+  }
+  
+  /* Desarrollo */
+  .subtitulo-historico {
+	font-size: 24px;
+	font-weight: bold;
+	margin-top: 40px;
+	color: blue;
+  }
+  
+  .historico-container {
+	display: flex;
+	flex-direction: center;
+	font-size: 20px;
+	align-items: center;
+  }
+  
+  .historico-container p {
+	display: flex;
+	align-items: center;
+  }
+  
+  .historico-image {
+	width: 250px;
+	height: 300px;
+	margin-left: 30px;
+  }
+  
+  .historico-button {
+	background-color: orange;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-top: 20px;
+	font-weight: bold;
+  }
+  
+  /* Mision y vision */
+  .subtitulo-m-v {
+	font-size: 24px;
+	font-weight: bold;
+	margin-top: 30px;
+	color: red;
+  }
+  
+  .mision-vision-container {
+	text-align: left;
+	font-size:  20px;
+  }
+  
+  .mision-vision-container h3 {
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 10px;
+	color: goldenrod;
+  }
+  
+  /* Organigrama */
+  a {
+	color: rgb(19, 74, 255);
+	margin-top: 30px;
+  }
+
+  /* Youtube */
+  .subtitulo-youtube h2 {
+	text-align: center;
+	margin-top: 30px;
+  }
+
+  /* Pie de página */
+  .footer {
+	background-color: rgb(0, 119, 255);
+	color: white;
+	padding: 20px;
+  }
+  
+  .footer-contact-info p {
+	margin: 5px 0;
+  }
+  
+  .footer-icon {
+	vertical-align: middle;
+	margin-right: 5px;
+	width: 25px;
+  }
+  
